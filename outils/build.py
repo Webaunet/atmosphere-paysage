@@ -186,7 +186,7 @@ contact=f'''<section class="section s-ivory hero page-hero contact-hero">
         <p class="eyebrow">Contact</p>
         <h1>Demandez votre <em>devis gratuit.</em></h1>
         <p class="lead">Dites-nous où vous êtes et ce que vous souhaitez : nous vous recontactons, puis nous nous déplaçons pour l’état des lieux.</p>
-        <ul class="direct">
+        <ul class="direct only-d">
           <li><a href="tel:0669718436">{I_PHONE}<span><small>Mobile</small>06 69 71 84 36</span></a></li>
           <li><a href="tel:0169769608">{PHONE_SVG}<span><small>Fixe</small>01 69 76 96 08</span></a></li>
           <li><div>{I_PIN}<span><small>Adresse</small>Gometz-la-Ville (91)</span></div></li>
@@ -221,6 +221,11 @@ contact=f'''<section class="section s-ivory hero page-hero contact-hero">
 <section class="section s-bark s-curve on-dark band-end">
   <div class="wrap">
     <div class="reveal"><p class="eyebrow">Après votre demande</p><h2>Ce qui se passe ensuite.</h2></div>
+    <ul class="direct only-m">
+          <li><a href="tel:0669718436">{I_PHONE}<span><small>Mobile</small>06 69 71 84 36</span></a></li>
+          <li><a href="tel:0169769608">{PHONE_SVG}<span><small>Fixe</small>01 69 76 96 08</span></a></li>
+          <li><div>{I_PIN}<span><small>Adresse</small>Gometz-la-Ville (91)</span></div></li>
+        </ul>
     <div class="steps three">
       <div class="step c-moss reveal">{I_PIN}<span class="n">1</span><h3>Nous venons chez vous</h3><p>État des lieux de votre jardin, sur place.</p></div>
       <div class="step c-olive reveal">{I_TREE}<span class="n">2</span><h3>Nous vous conseillons</h3><p>Des conseils pour réaliser votre projet.</p></div>
